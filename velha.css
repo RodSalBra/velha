@@ -2,9 +2,15 @@
 #player {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     column-gap: 5px;
     color: #093f63c9;
     padding: 100px 0px 0px 0px;
+}
+
+#tabuleiro {
+    display: flex;
+    flex-direction: column;
 }
 
 #jogador {
