@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="velha.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    
+    <div id="player">
+        <p id="jogador">JOGADOR(A) 1</p>
+        <input id="nomes" type="text" placeholder="Digite seu nome">
+        <input id="botao" type="button" value="INICIAR">
+        <input id="botao2" type="button" value="REINICIAR">
+
+    </div>
+
+    <div id="tabuleiro">
+        <div id="placar">
+            <p id="jogador1" class="players"></p>
+            <p id="jogador2" class="players"></p>
+        </div>
+        <div id="game">
+            <div>
+                <div id="um" class="casa"></div>
+                <div id="dois" class="casa"></div>
+                <div id="tres" class="casa"></div>
+            </div>
+            <div>
+                <div id="quatro" class="casa"></div>
+                <div id="cinco" class="casa"></div>
+                <div id="seis" class="casa"></div>
+            </div>
+            <div>
+                <div id="sete" class="casa"></div>
+                <div id="oito" class="casa"></div>
+                <div id="nove" class="casa"></div>
+            </div>
+        </div>
+        <div>
+            <p id="vezde"></p>
+        </div>
+    </div>
+    <script src="velha.js"></script>
+
+</body>
+</html>
